@@ -2678,7 +2678,7 @@
     "prop-types" "^15.7.2"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/addons@6.5.10":
+"@storybook/addons@^6.5.0", "@storybook/addons@6.5.10":
   "integrity" "sha512-VD4tBCQ23PkSeDoxuHcKy0RfhIs3oMYjBacOZx7d0bvOzK9WjPyvE2ysDAh7r/ceqnwmWHAScIpE+I1RU7gl+g=="
   "resolved" "https://registry.npmjs.org/@storybook/addons/-/addons-6.5.10.tgz"
   "version" "6.5.10"
@@ -2695,7 +2695,7 @@
     "global" "^4.4.0"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/api@6.5.10":
+"@storybook/api@^6.5.0", "@storybook/api@6.5.10":
   "integrity" "sha512-AkmgSPNEGdKp4oZA4KQ+RJsacw7GwfvjsVDnCkcXqS9zmSr/RNL0fhpcd60KKkmx/hGKPTDFpK3ZayxDrJ/h4A=="
   "resolved" "https://registry.npmjs.org/@storybook/api/-/api-6.5.10.tgz"
   "version" "6.5.10"
@@ -2882,7 +2882,7 @@
     "core-js" "^3.8.2"
     "global" "^4.4.0"
 
-"@storybook/components@6.5.10":
+"@storybook/components@^6.5.0", "@storybook/components@6.5.10":
   "integrity" "sha512-9OhgB8YQfGwOKjo/N96N5mrtJ6qDVVoEM1zuhea32tJUd2eYf0aSWpryA9VnOM0V1q/8DAoCg5rPBMYWMBU5uw=="
   "resolved" "https://registry.npmjs.org/@storybook/components/-/components-6.5.10.tgz"
   "version" "6.5.10"
@@ -2978,7 +2978,7 @@
     "util-deprecate" "^1.0.2"
     "webpack" "4"
 
-"@storybook/core-events@6.5.10":
+"@storybook/core-events@^6.5.0", "@storybook/core-events@6.5.10":
   "integrity" "sha512-EVb1gO1172klVIAABLOoigFMx0V88uctY0K/qVCO8n6v+wd2+0Ccn63kl+gTxsAC3WZ8XhXh9q2w5ImHklVECw=="
   "resolved" "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.5.10.tgz"
   "version" "6.5.10"
@@ -3382,7 +3382,7 @@
     "@testing-library/user-event" "^13.2.1"
     "ts-dedent" "^2.2.0"
 
-"@storybook/theming@6.5.10":
+"@storybook/theming@^6.5.0", "@storybook/theming@6.5.10":
   "integrity" "sha512-BvTQBBcSEwKKcsVmF+Ol6v0RIQUr+bxP7gb10wtfBd23mZTEFA0C1N5FnZr/dDeiBKG1pvf1UKvoYA731y0BsA=="
   "resolved" "https://registry.npmjs.org/@storybook/theming/-/theming-6.5.10.tgz"
   "version" "6.5.10"
@@ -13609,6 +13609,11 @@
   "integrity" "sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w=="
   "resolved" "https://registry.npmjs.org/store2/-/store2-2.14.2.tgz"
   "version" "2.14.2"
+
+"storybook-addon-pseudo-states@^1.15.1":
+  "integrity" "sha512-GRBf63wRHoFwN65hRTdTaIcE7jn2Yj2B/dNyj03o8TRBevnmOL80NfLAGsmDYP4a7Ye3kBkILX952aUkK4P+ZA=="
+  "resolved" "https://registry.npmjs.org/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-1.15.1.tgz"
+  "version" "1.15.1"
 
 "stream-browserify@^2.0.1":
   "integrity" "sha512-nX6hmklHs/gr2FuxYDltq8fJA1GDlxKQCz8O/IM4atRqBH8OORmBNgfvW5gG10GT/qQ9u0CzIvr2X5Pkt6ntqg=="
