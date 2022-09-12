@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --exit-zero-on-changes --untraced yarn.lock --untraced package-lock.json --untraced package.json --trace-changed expanded"
+    "chromatic": "npx chromatic --exit-zero-on-changes --untraced yarn.lock,package-lock.json,package.json --trace-changed expanded"
   },
   "eslintConfig": {
     "extends": [
