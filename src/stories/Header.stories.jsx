@@ -27,7 +27,7 @@ import { Header } from './Header';
 
 storiesOf('Header', module)
 .addStory('Logged In ', () => {
-  <Header user={{name: 'Jane Doe'}} />
+  <Header user={{name: 'Lebron James'}} />
 })
 .addStory('Logged Out ', () => {
   <Header user={{}} />
