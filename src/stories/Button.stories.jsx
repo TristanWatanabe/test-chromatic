@@ -1,6 +1,6 @@
 import React from 'react';
 import userEvent from '@testing-library/user-event';
-import {screen} from '@testing-library/react'
+import {screen, within} from '@testing-library/react'
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -40,7 +40,19 @@ Small.args = {
   label: 'Button',
 };
 
-export const PrimaryHovered = {
-  ...Primary,
-  play: () => userEvent.hover(screen.getByRole('button'))
+// export const PrimaryHovered = {
+//   ...Primary,
+//   play: () => {
+//     console.log("Button P", screen.getByRole('button'))
+//     userEvent.hover(screen.getByRole('button'))
+//   }
+// }
+
+export const PrimaryHovered = Template.bind({})
+PrimaryHovered.args = Primary.args
+PrimaryHovered.play = async ({canvasElement}) => {
+  const canvas = within(canvasElement);
+  const Button = await canvas.getByRole('button');
+  console.log("Button ", Button)
+  await userEvent.hover(Button);
 }
