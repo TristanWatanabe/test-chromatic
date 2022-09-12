@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {userEvent, screen, within, waitFor} from '@storybook/testing-library'
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -19,7 +19,7 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Test 3 ',
+  label: 'Button',
 };
 
 export const Secondary = Template.bind({});
@@ -38,3 +38,20 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+// export const PrimaryHovered = {
+//   ...Primary,
+//   play: () => {
+//     console.log("Button P", screen.getByRole('button'))
+//     userEvent.hover(screen.getByRole('button'))
+//   }
+// }
+
+export const Hovered = Template.bind({})
+Hovered.args = {
+  primary: true,
+  label: 'Hovered Button'
+}
+Hovered.parameters = {
+  pseudo: {hover: true}
+}

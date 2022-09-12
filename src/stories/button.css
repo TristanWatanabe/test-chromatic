@@ -7,6 +7,9 @@
   display: inline-block;
   line-height: 1;
 }
+.storybook-button:hover {
+  background-color: pink;
+}
 .storybook-button--primary {
   color: white;
   background-color: #1ea7fd;

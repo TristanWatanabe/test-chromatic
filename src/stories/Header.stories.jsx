@@ -1,4 +1,5 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react';
 
 import { Header } from './Header';
 
@@ -22,3 +23,12 @@ LoggedIn.args = {
 
 export const LoggedOut = Template.bind({});
 LoggedOut.args = {};
+
+
+// storiesOf('Header', module)
+// .addStory('Logged In ', () => {
+//   <Header user={{name: 'Lebron James'}} />
+// })
+// .addStory('Logged Out ', () => {
+//   <Header user={{}} />
+// })
