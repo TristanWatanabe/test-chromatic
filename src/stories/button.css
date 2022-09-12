@@ -8,7 +8,7 @@
   line-height: 1;
 }
 .storybook-button:hover {
-  background-color: red;
+  background-color: yellow;
 }
 .storybook-button--primary {
   color: white;
