@@ -47,8 +47,11 @@ Small.args = {
 //   }
 // }
 
-export const PrimaryHovered = Template.bind({})
-PrimaryHovered.args = Primary.args
-PrimaryHovered.parameters = {
+export const Hovered = Template.bind({})
+Hovered.args = {
+  primary: true,
+  label: 'Hovered Button'
+}
+Hovered.parameters = {
   pseudo: {hover: true}
 }
