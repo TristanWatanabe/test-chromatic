@@ -1,5 +1,6 @@
 import React from 'react';
-
+import userEvent from '@testing-library/user-event';
+import {screen} from '@testing-library/react'
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -38,3 +39,8 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const PrimaryHovered = {
+  ...Primary,
+  play: () => userEvent.hover(screen.getByRole('button'))
+}
